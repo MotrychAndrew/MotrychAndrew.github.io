@@ -1,0 +1,47 @@
+body {
+font: 13pt Andale Mono, monospace; /* Шрифт на веб-странице */
+background: #989898; /* Цвет фона */
+}
+h2 {
+font-size: 1.1em; /* Размер шрифта */
+color: #ffffff; /* Цвет текста */
+margin-top: 0; /* Отступ сверху */
+}
+a {
+color: #999999; /* Цвет текста */
+text-decoration: none; /* Убирает подчёркивание под ссылкой */
+}
+p, ul, li {
+color: #ffffff; /* Цвет текста */
+}
+#container {
+width: 600px; /* Ширина слоя */
+margin: 0 auto; /* Выравнивание по центру */
+background: #414141; /* Цвет фона левой колонки */
+}
+#header {
+font: 20pt Comic Sans MS, Comic Sans, cursive; /* Шрифт шапки */
+text-align: center; /* Выравнивание по центру */
+padding: 5px; /* Отступы вокруг текста */
+background: #272727; /* Цвет фона шапки */
+color: #ffffff; /* Цвет текста */
+}
+#sidebar {
+margin-top: 10px; 
+width: 110px; /* Ширина слоя */
+padding: 0 10px; /* Отступы вокруг текста */
+float: left; /* Обтекание по правому краю */
+}
+#content  {
+height: 300px;
+margin-left: 130px; /* Отступ слева */
+padding: 10px; /* Поля вокруг текста */
+background: #686868; /* Цвет фона правой колонки */
+}
+#footer {
+font: 10pt Comic Sans MS, Comic Sans, cursive; /* Шрифт подвала */
+background: #272727; /* Цвет фона подвала */
+color: #ffffff; /* Цвет текста */
+padding: 5px; /* Отступы вокруг текста */
+clear: left; /* Отменяем действие float */
+}
